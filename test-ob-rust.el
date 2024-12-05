@@ -25,7 +25,7 @@
   (expand-file-name (file-name-directory (or load-file-name buffer-file-name))))
 
 (defconst org-id-locations-file
-  (expand-file-name ".test-org-id-locations" ob-rust-test-dir))
+  (org-babel-temp-file "test-org-id-locations-"))
 
 (defun ob-rust-test-update-id-locations ()
   (let ((files (directory-files
