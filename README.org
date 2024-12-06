@@ -55,14 +55,3 @@ curl https://sh.rustup.rs -sSf | sh
 #+END_SRC
 
 for more details or other methods installation, please visit: [[https://www.rust-lang.org/en-US/install.html][https://www.rust-lang.org/en-US/install.html]]
-
-** cargo script
-
-You can install [[https://github.com/fornwall/rust-script][rust-script]] using Cargo's install subcommand:
-#+BEGIN_SRC sh
-cargo install rust-script
-#+END_SRC
-
-* TODOs
-
-+ replace =rust-script= with =rustc= and run binary.
